@@ -6,3 +6,6 @@ Pillow>=10.0.0
 pdf2image>=1.17.0
 pytesseract>=0.3.10
 reportlab>=4.0.0 
+pandas
+scikit-learn
+voyageai
