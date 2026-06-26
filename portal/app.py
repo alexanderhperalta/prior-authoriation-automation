@@ -3,7 +3,7 @@ import json, uuid, datetime, os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-app.secret_key = "silna-demo-secret"
+app.secret_key = "demo-secret"
 STORAGE_FILE = os.path.join(os.path.dirname(__file__), "storage.json")
 
 load_dotenv()

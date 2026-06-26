@@ -6,6 +6,7 @@ import sys
 import os
 import json
 import time
+import asyncio
 import datetime
 from pathlib import Path
 from dotenv import load_dotenv
@@ -167,7 +168,7 @@ def step_check_status(page: Page, log: AgentLog, pa_ref: str) -> str:
     """
     Second agent flow: log back in, navigate to the status page,
     find the PA by reference number, and return its current status.
-    Mirrors Silna's per-payer follow-up cadence.
+    Mirrors per-payer follow-up cadence.
     """
     log.log("Status check — navigate to portal", PORTAL_URL)
     page.goto(PORTAL_URL)
@@ -210,7 +211,7 @@ def run():
 
     print("\n── Phase 1: Document Intelligence ────────────────────────")
     log.log("Extract fields from treatment plan", PDF_PATH, "info")
-    extraction_result = extract_fields(PDF_PATH)
+    extraction_result = asyncio.run(extract_fields(PDF_PATH))
     portal_fields = map_to_portal_fields(extraction_result)
     log.log("Extraction complete", f"{len(portal_fields)} fields ready")
 
@@ -241,7 +242,7 @@ def run():
             browser.close()
 
     print("\n── Phase 3: Status Check — Follow-up cadence ─────────────")
-    print("  Simulating Silna follow-up loop (1 check, 5s delay)...")
+    print("  Simulating follow-up loop (1 check, 5s delay)...")
     time.sleep(5)  # In production: tuned per payer/specialty cadence
 
     pa_status = "UNKNOWN"

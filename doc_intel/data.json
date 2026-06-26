@@ -1,0 +1,242 @@
+[
+    {
+        "extracted_fields": {
+            "patient_name": "Marcus J. Thompson",
+            "dob": "2018-03-14",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder (ASD), Level 2",
+            "cpt_code": "97153",
+            "requested_amount": "120",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "1437892056",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "Marcus is a 6-year-old male with Autism Spectrum Disorder (Level 2) presenting with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. He exhibits frequent self-injurious behaviors (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, posing significant safety risks. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "<UNKNOWN>"
+        },
+        "metadata": {
+            "source_file": "baseline.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3203,
+            "output_tokens": 451,
+            "elapsed_seconds": 9.9
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Marcus J. Thompson",
+            "dob": "2018-03-14",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder, Level 2",
+            "cpt_code": "97153",
+            "requested_amount": "90",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "1437892056",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "Marcus is a 6-year-old male with Autism Spectrum Disorder (Level 2) presenting with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. He exhibits frequent self-injurious behaviors (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, representing a significant safety risk. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behaviors (head-banging, hand-biting) and elopement behaviors to improve safety and enable access to educational programming"
+        },
+        "metadata": {
+            "source_file": "clinical_addendum.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3237,
+            "output_tokens": 479,
+            "elapsed_seconds": 10.61
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Chloe Rodriguez",
+            "dob": "2016-11-14",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder",
+            "cpt_code": "97153",
+            "requested_amount": "163",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "2259410805",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "The patient presents with Autism Spectrum Disorder (ASD), Level 2, with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. The patient exhibits frequent self-injurious behaviors (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, representing a significant safety risk. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behavior (head-banging, hand-biting) and elopement behaviors to improve safety and enable access to educational programming"
+        },
+        "metadata": {
+            "source_file": "fuzz_var_1.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3169,
+            "output_tokens": 472,
+            "elapsed_seconds": 10.61
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Aria Patel",
+            "dob": "2016-12-02",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder (ASD), Level 2",
+            "cpt_code": "97153",
+            "requested_amount": "54",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "8356186975",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "The patient presents with Autism Spectrum Disorder (ASD), Level 2, with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. The patient exhibits frequent self-injurious behaviors (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, representing a significant safety risk. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behaviors (head-banging, hand-biting) and elopement behaviors to safe levels to enable the patient to access educational programming"
+        },
+        "metadata": {
+            "source_file": "fuzz_var_2.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3169,
+            "output_tokens": 481,
+            "elapsed_seconds": 11.21
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Jackson O'Connor",
+            "dob": "2016-06-19",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder",
+            "cpt_code": "97153",
+            "requested_amount": "184",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "5716989294",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "The patient is a 6-year-old male diagnosed with Autism Spectrum Disorder (ASD), Level 2, with significant deficits in social communication, restricted/repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. He exhibits frequent self-injurious behaviors (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, posing significant safety risks. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behaviors (head-banging, hand-biting) and elopement behaviors to improve safety and enable access to educational programming"
+        },
+        "metadata": {
+            "source_file": "fuzz_var_3.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3168,
+            "output_tokens": 479,
+            "elapsed_seconds": 10.59
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Aria O'Connor",
+            "dob": "2016-07-20",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder",
+            "cpt_code": "97153",
+            "requested_amount": "197",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "3675908084",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "The patient presents with Autism Spectrum Disorder (ASD), Level 2, with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. The patient exhibits frequent self-injurious behaviors (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, representing a significant safety risk. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behavior (head-banging, hand-biting) and elopement behaviors to improve safety and enable access to educational programming."
+        },
+        "metadata": {
+            "source_file": "fuzz_var_4.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3169,
+            "output_tokens": 472,
+            "elapsed_seconds": 10.43
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Chloe Patel",
+            "dob": "2011-01-15",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder (ASD), Level 2",
+            "cpt_code": "97153",
+            "requested_amount": "45",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "9055109916",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "The patient presents with Autism Spectrum Disorder, Level 2, with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. He exhibits frequent self-injurious behaviors (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, representing a significant safety risk. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behavior (head-banging, hand-biting) and elopement behaviors to improve safety and access to educational programming"
+        },
+        "metadata": {
+            "source_file": "fuzz_var_5.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3171,
+            "output_tokens": 476,
+            "elapsed_seconds": 14.13
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Marcus J. Thompson",
+            "dob": "2018-03-14",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder (ASD), Level 2",
+            "cpt_code": "97153",
+            "requested_amount": "120",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "1437892056",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "Marcus Thompson is a 6-year-old male diagnosed with Autism Spectrum Disorder (ASD), Level 2, with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. He exhibits frequent self-injurious behavior (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, representing a significant safety risk. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "<UNKNOWN>"
+        },
+        "metadata": {
+            "source_file": "merged_fax_poisoning.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 5205,
+            "output_tokens": 455,
+            "elapsed_seconds": 10.18
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Marcus J. Thompson",
+            "dob": "2018-03-14",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder",
+            "cpt_code": "97153",
+            "requested_amount": "120",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "1437892056",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "Marcus Thompson is a 6-year-old male with Autism Spectrum Disorder, Level 2, presenting with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. He exhibits frequent self-injurious behavior (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, representing a significant safety risk. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behavior (head-banging, hand-biting) and elopement behaviors to improve safety and enable access to educational programming"
+        },
+        "metadata": {
+            "source_file": "page_break_orphan.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 4754,
+            "output_tokens": 476,
+            "elapsed_seconds": 10.83
+        }
+    },
+    {
+        "extracted_fields": {
+            "patient_name": "Marcus J. Thompson",
+            "dob": "2018-03-14",
+            "diagnosis_code": "F84.0",
+            "diagnosis_description": "Autism Spectrum Disorder Level 2",
+            "cpt_code": "97153",
+            "requested_amount": "120",
+            "requested_unit_type": "units/month",
+            "provider_name": "Dr. Sarah K. Nguyen, BCBA-D",
+            "provider_npi": "1437892056",
+            "payer": "Aetna Commercial PPO",
+            "auth_period": "6 months",
+            "medical_necessity_summary": "Marcus Thompson is a 6-year-old male with ASD Level 2, presenting with significant deficits in social communication, restricted and repetitive behaviors, and sensory sensitivities that substantially impair daily functioning. He exhibits frequent self-injurious behavior (head-banging, hand-biting) at an average rate of 12 times per day and elopement behaviors 3\u20135 times per school day, posing a safety risk and limiting access to educational programming. ABA therapy at the requested intensity is medically necessary and consistent with Aetna Clinical Policy Bulletin #0473 for ASD.",
+            "primary_treatment_goal": "Reduce self-injurious behavior (head-banging, hand-biting) from 12/day to \u22643/day as measured by direct observation data."
+        },
+        "metadata": {
+            "source_file": "whitespace_hell.pdf",
+            "model": "claude-opus-4-6",
+            "input_tokens": 3190,
+            "output_tokens": 484,
+            "elapsed_seconds": 10.13
+        }
+    }
+]

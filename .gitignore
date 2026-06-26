@@ -1,5 +1,4 @@
 venv/
-silna/
 __pycache__/
 *.pyc
 .env
@@ -10,3 +9,4 @@ sample_docs/cases
 doc_intel/__pycache__
 .DS_Store
 .Rhistory
+Old/
