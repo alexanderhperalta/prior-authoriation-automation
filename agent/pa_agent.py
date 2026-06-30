@@ -217,7 +217,7 @@ def run():
 
     print("\n── Phase 2: Browser Agent — Submission ───────────────────")
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=600)
+        browser = p.chromium.launch(headless=True, slow_mo=0)
         context = browser.new_context(viewport={"width": 1280, "height": 800})
         page = context.new_page()
 
@@ -225,8 +225,7 @@ def run():
             step_login(page, log)
             step_fill_form(page, log, portal_fields)
 
-            print("\n  ⏸  Form filled — review in browser. Submitting in 3s...")
-            time.sleep(3)
+            print("\n  ⏸  Form filled — review in browser. Submitting in now...")
 
             pa_ref = step_submit(page, log)
             step_verify_status(page, log, pa_ref)
@@ -238,16 +237,13 @@ def run():
             raise
 
         finally:
-            time.sleep(2)
             browser.close()
 
     print("\n── Phase 3: Status Check — Follow-up cadence ─────────────")
-    print("  Simulating follow-up loop (1 check, 5s delay)...")
-    time.sleep(5)  # In production: tuned per payer/specialty cadence
 
     pa_status = "UNKNOWN"
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=500)
+        browser = p.chromium.launch(headless=True, slow_mo=0)
         context = browser.new_context(viewport={"width": 1280, "height": 800})
         page = context.new_page()
 
@@ -256,7 +252,6 @@ def run():
         except Exception as e:
             log.log("Status check error", str(e), "error")
         finally:
-            time.sleep(3)
             browser.close()
 
     # Save results
